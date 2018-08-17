@@ -1,2 +1,2 @@
-# spring-boot-rabbitmq
-springboot rabbitmq 实现延迟队列消费（订单定时过期处理）
+# RabbitMQ 延迟队列 + spring-boot实现
+* 结合rabbitmq 的延迟队列实现类似未支付订单三十分钟自动取消功能，替代传统的采用后台定时任务方式取消过期订单的功能
